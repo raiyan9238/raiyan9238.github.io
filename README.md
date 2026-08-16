@@ -1,48 +1,16 @@
-# Md. Ibrahim Sarker Raiyan — Academic Portfolio
+# Md. Ibrahim Sarker Raiyan — Academic Portfolio V3
 
-A lightweight, static, data-driven academic portfolio designed for GitHub Pages.
+Academic-first static portfolio with a persistent researcher profile sidebar and separate pages for Research, Publications, Projects, and Experience.
 
-## Structure
+## Files
+- index.html
+- research.html
+- publications.html
+- projects.html
+- experience.html
+- assets/css/styles.css
+- assets/js/site.js
+- assets/images/profile.jpg
+- assets/docs/Md_Ibrahim_Sarker_Raiyan_CV.pdf
 
-- `index.html` — page structure
-- `assets/css/styles.css` — responsive design
-- `assets/js/data.js` — editable portfolio content
-- `assets/js/app.js` — section rendering and interactions
-- `assets/images/profile.jpg` — profile photo
-- `assets/docs/Md_Ibrahim_Sarker_Raiyan_CV.pdf` — CV
-
-## Updating content
-
-Most portfolio content can be updated from:
-
-```text
-assets/js/data.js
-```
-
-For example, to add a new update, add a new object to the `updates` array.
-
-## Deploy on GitHub Pages
-
-Upload all files and folders to the root of:
-
-```text
-raiyan9238/raiyan9238.github.io
-```
-
-For a user-site repository named `raiyan9238.github.io`, GitHub Pages can serve the site from the default branch after Pages is enabled.
-
-## Notes
-
-This repository is intentionally backend-free. No database, server, authentication, or build command is required.
-
-
-## v2 improvements
-
-- Academic/research identity strengthened in hero and About
-- Verified DOI links added to all three publications
-- Publication author lists added
-- AML repository and paper evidence links added
-- Khobor Google Play and website links added
-- Thesis section expanded with research question, contribution, and candidate hub genes
-- Education section added
-- No unverified project links were added
+No backend, framework build, database, or Jekyll installation is required.
