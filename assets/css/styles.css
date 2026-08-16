@@ -363,3 +363,113 @@ h3 { font-size: 1.45rem; }
   .exp-item { grid-template-columns: 1fr; gap: 8px; }
   .footer-inner { flex-direction: column; }
 }
+
+
+/* --- v2 academic polish --- */
+.hero-secondary {
+  margin: -10px 0 22px;
+  color: var(--muted);
+  max-width: 690px;
+  font-size: 0.98rem;
+}
+.pub-authors {
+  color: #415046;
+  margin: 0 0 7px;
+  font-size: .91rem;
+  line-height: 1.55;
+}
+.pub-authors strong { color: var(--text); }
+.evidence-link, .project-links a {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: .84rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.evidence-link:hover, .project-links a:hover { text-decoration: underline; }
+.project-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.research-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+.research-notes article {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding: 18px 4px 4px 0;
+}
+.research-notes span {
+  display: block;
+  color: #a8d1b7;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .72rem;
+  font-weight: 700;
+}
+.research-notes p {
+  color: #c5d1c9;
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+.research-actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.research-btn {
+  background: #eaf2ec;
+  color: #173d2e;
+}
+.light-link { color: #b8cabe; }
+.education-list { border-top: 1px solid var(--line); }
+.education-item {
+  display: grid;
+  grid-template-columns: 1fr 330px;
+  gap: 36px;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: center;
+}
+.education-year {
+  color: var(--accent);
+  font-size: .8rem;
+  font-weight: 700;
+}
+.education-item h3 { margin: 8px 0 6px; }
+.education-item p { color: var(--muted); margin: 0; }
+.education-result {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 16px;
+  justify-content: end;
+}
+.education-result strong {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.35rem;
+  text-align: right;
+}
+.education-result span {
+  color: var(--muted);
+  font-size: .8rem;
+  align-self: center;
+}
+.compact-result { align-self: center; }
+
+@media (max-width: 900px) {
+  .research-notes { grid-template-columns: 1fr; }
+  .education-item { grid-template-columns: 1fr; }
+  .education-result { justify-content: start; max-width: 300px; }
+  .education-result strong { text-align: left; }
+}
+
+@media (max-width: 680px) {
+  .hero-secondary { margin-top: -8px; }
+}

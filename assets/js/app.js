@@ -25,7 +25,9 @@
         <div class="pub-num">${String(index + 1).padStart(2, "0")}</div>
         <div>
           <p class="pub-title">${item.title}</p>
+          <p class="pub-authors">${item.authors}</p>
           <p class="pub-meta">${item.venue}</p>
+          <a class="evidence-link" href="${item.link}" target="_blank" rel="noopener">DOI: ${item.doi} ↗</a>
         </div>
         <div class="pub-role">${item.role}</div>
       </article>
@@ -39,6 +41,11 @@
         <h3>${item.title}</h3>
         <p>${item.description}</p>
         <div class="project-role">${item.role}</div>
+        ${item.links && item.links.length ? `
+          <div class="project-links">
+            ${item.links.map(link => `<a href="${link.url}" target="_blank" rel="noopener">${link.label} ↗</a>`).join("")}
+          </div>
+        ` : ""}
         <div class="tag-row">
           ${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}
         </div>

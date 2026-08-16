@@ -34,3 +34,15 @@ For a user-site repository named `raiyan9238.github.io`, GitHub Pages can serve 
 ## Notes
 
 This repository is intentionally backend-free. No database, server, authentication, or build command is required.
+
+
+## v2 improvements
+
+- Academic/research identity strengthened in hero and About
+- Verified DOI links added to all three publications
+- Publication author lists added
+- AML repository and paper evidence links added
+- Khobor Google Play and website links added
+- Thesis section expanded with research question, contribution, and candidate hub genes
+- Education section added
+- No unverified project links were added
