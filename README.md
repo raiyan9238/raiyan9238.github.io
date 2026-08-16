@@ -14,3 +14,15 @@ Academic-first static portfolio with a persistent researcher profile sidebar and
 - assets/docs/Md_Ibrahim_Sarker_Raiyan_CV.pdf
 
 No backend, framework build, database, or Jekyll installation is required.
+
+## V3.1 visual polish
+- Deep burgundy + charcoal academic color system
+- Thin top accent bar
+- Navigation hover/active underline
+- Circular gradient avatar ring with restrained hover effect
+- Font Awesome + Academicons sidebar icons
+- Featured Research statement with subtle tint and left accent
+- Short gradient rules on section headings
+- News timeline dots + New badge
+- Subtle link and interest-tag hover states
+- Minimal motion with reduced-motion support
